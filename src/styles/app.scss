@@ -1,0 +1,38 @@
+// app.scss
+@import './vars';
+
+.app-container {
+    background-color: $background-dark;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    */
+  }
+
+  .page-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 2rem;
+  }
+  
+  .card-stack-container {
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .todo-card {
+    background-color: $card-light;
+  }
+
+  form {
+    label {
+      color: $for-label-color;
+    }
+  }
+  
